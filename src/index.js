@@ -11,6 +11,7 @@ import Hakkinda from './components/Hakkinda';
 import Harita from './components/Harita';
 import Iletisim from './components/Iletisim';
 import Footer from './components/Footer';
+import Evler from './components/Evler';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
     <Giris/>
     <Kampanya/>
     <Odeme/>
+    <Evler/>
     <Hakkinda/>
     <Harita/>
     <Iletisim/>
